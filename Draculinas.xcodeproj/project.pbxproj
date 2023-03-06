@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		392EAC6229B16650005707EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392EAC6129B16650005707EB /* AppDelegate.swift */; };
+		392EAC6429B16650005707EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392EAC6329B16650005707EB /* SceneDelegate.swift */; };
+		392EAC6629B16650005707EB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392EAC6529B16650005707EB /* LoginViewController.swift */; };
+		392EAC6929B16650005707EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392EAC6729B16650005707EB /* Main.storyboard */; };
+		392EAC6C29B16650005707EB /* Draculinas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 392EAC6A29B16650005707EB /* Draculinas.xcdatamodeld */; };
+		392EAC6E29B16651005707EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 392EAC6D29B16651005707EB /* Assets.xcassets */; };
+		392EAC7129B16651005707EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392EAC6F29B16651005707EB /* LaunchScreen.storyboard */; };
+		392EAC8229B27643005707EB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392EAC8129B27643005707EB /* MainViewController.swift */; };
+		392EAC8429B27BCF005707EB /* CustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392EAC8329B27BCF005707EB /* CustomCellTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		392EAC5E29B16650005707EB /* Draculinas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Draculinas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		392EAC6129B16650005707EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		392EAC6329B16650005707EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		392EAC6529B16650005707EB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		392EAC6829B16650005707EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		392EAC6B29B16650005707EB /* Draculinas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Draculinas.xcdatamodel; sourceTree = "<group>"; };
+		392EAC6D29B16651005707EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		392EAC7029B16651005707EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		392EAC7229B16651005707EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		392EAC8129B27643005707EB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		392EAC8329B27BCF005707EB /* CustomCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		392EAC5B29B16650005707EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		392EAC5529B16650005707EB = {
+			isa = PBXGroup;
+			children = (
+				392EAC6029B16650005707EB /* Draculinas */,
+				392EAC5F29B16650005707EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		392EAC5F29B16650005707EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				392EAC5E29B16650005707EB /* Draculinas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		392EAC6029B16650005707EB /* Draculinas */ = {
+			isa = PBXGroup;
+			children = (
+				392EAC8029B27191005707EB /* Networking */,
+				392EAC7F29B27175005707EB /* Extensions */,
+				392EAC7E29B270FF005707EB /* Controllers */,
+				392EAC7D29B270F4005707EB /* Model */,
+				392EAC7C29B270EB005707EB /* Classes */,
+				392EAC7B29B270E0005707EB /* Resources */,
+				392EAC7929B27088005707EB /* ViewModel */,
+				392EAC7829B27081005707EB /* View */,
+				392EAC6129B16650005707EB /* AppDelegate.swift */,
+				392EAC6329B16650005707EB /* SceneDelegate.swift */,
+				392EAC6729B16650005707EB /* Main.storyboard */,
+				392EAC7229B16651005707EB /* Info.plist */,
+				392EAC6A29B16650005707EB /* Draculinas.xcdatamodeld */,
+				392EAC8129B27643005707EB /* MainViewController.swift */,
+				392EAC8329B27BCF005707EB /* CustomCellTableViewCell.swift */,
+			);
+			path = Draculinas;
+			sourceTree = "<group>";
+		};
+		392EAC7829B27081005707EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				392EAC6529B16650005707EB /* LoginViewController.swift */,
+				392EAC6F29B16651005707EB /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		392EAC7929B27088005707EB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		392EAC7A29B270D8005707EB /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		392EAC7B29B270E0005707EB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				392EAC6D29B16651005707EB /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		392EAC7C29B270EB005707EB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		392EAC7D29B270F4005707EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		392EAC7E29B270FF005707EB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				392EAC7A29B270D8005707EB /* MainViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		392EAC7F29B27175005707EB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		392EAC8029B27191005707EB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		392EAC5D29B16650005707EB /* Draculinas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 392EAC7529B16651005707EB /* Build configuration list for PBXNativeTarget "Draculinas" */;
+			buildPhases = (
+				392EAC5A29B16650005707EB /* Sources */,
+				392EAC5B29B16650005707EB /* Frameworks */,
+				392EAC5C29B16650005707EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Draculinas;
+			productName = Draculinas;
+			productReference = 392EAC5E29B16650005707EB /* Draculinas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		392EAC5629B16650005707EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					392EAC5D29B16650005707EB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 392EAC5929B16650005707EB /* Build configuration list for PBXProject "Draculinas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 392EAC5529B16650005707EB;
+			productRefGroup = 392EAC5F29B16650005707EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				392EAC5D29B16650005707EB /* Draculinas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		392EAC5C29B16650005707EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392EAC7129B16651005707EB /* LaunchScreen.storyboard in Resources */,
+				392EAC6E29B16651005707EB /* Assets.xcassets in Resources */,
+				392EAC6929B16650005707EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		392EAC5A29B16650005707EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392EAC6629B16650005707EB /* LoginViewController.swift in Sources */,
+				392EAC6C29B16650005707EB /* Draculinas.xcdatamodeld in Sources */,
+				392EAC8429B27BCF005707EB /* CustomCellTableViewCell.swift in Sources */,
+				392EAC6229B16650005707EB /* AppDelegate.swift in Sources */,
+				392EAC6429B16650005707EB /* SceneDelegate.swift in Sources */,
+				392EAC8229B27643005707EB /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		392EAC6729B16650005707EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				392EAC6829B16650005707EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		392EAC6F29B16651005707EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				392EAC7029B16651005707EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		392EAC7329B16651005707EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		392EAC7429B16651005707EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		392EAC7629B16651005707EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F4J982XF72;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Draculinas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "David-Perez.Draculinas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		392EAC7729B16651005707EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F4J982XF72;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Draculinas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "David-Perez.Draculinas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		392EAC5929B16650005707EB /* Build configuration list for PBXProject "Draculinas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392EAC7329B16651005707EB /* Debug */,
+				392EAC7429B16651005707EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		392EAC7529B16651005707EB /* Build configuration list for PBXNativeTarget "Draculinas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392EAC7629B16651005707EB /* Debug */,
+				392EAC7729B16651005707EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		392EAC6A29B16650005707EB /* Draculinas.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				392EAC6B29B16650005707EB /* Draculinas.xcdatamodel */,
+			);
+			currentVersion = 392EAC6B29B16650005707EB /* Draculinas.xcdatamodel */;
+			path = Draculinas.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 392EAC5629B16650005707EB /* Project object */;
+}
